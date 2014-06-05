@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>cbasetypes.h</itemPath>
+      <itemPath>core.h</itemPath>
+      <itemPath>mmo.h</itemPath>
+      <itemPath>showmsg.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>core.cpp</itemPath>
+      <itemPath>showmsg.c</itemPath>
+      <itemPath>socket.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <standard>8</standard>
+        </ccTool>
+        <requiredProjects>
+          <makeArtifact PL="../../3rdparty"
+                        CT="0"
+                        CN="Default"
+                        AC="true"
+                        BL="true"
+                        WD="../../3rdparty"
+                        BC="${MAKE} -f Makefile"
+                        CC="${MAKE} -f Makefile clean"
+                        OP="">
+          </makeArtifact>
+        </requiredProjects>
+      </compileType>
+      <item path="cbasetypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mmo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="showmsg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="showmsg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="socket.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <requiredProjects>
+          <makeArtifact PL="../../3rdparty"
+                        CT="0"
+                        CN="Default"
+                        AC="true"
+                        BL="true"
+                        WD="../../3rdparty"
+                        BC="${MAKE} -f Makefile"
+                        CC="${MAKE} -f Makefile clean"
+                        OP="">
+          </makeArtifact>
+        </requiredProjects>
+      </compileType>
+      <item path="cbasetypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="core.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="core.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="mmo.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="showmsg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="showmsg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="socket.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

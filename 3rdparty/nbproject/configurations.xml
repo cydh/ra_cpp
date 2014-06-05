@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="94">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="libconfig">
+        <in>grammar.c</in>
+        <in>libconfig.c</in>
+        <in>scanctx.c</in>
+        <in>scanner.c</in>
+        <in>strbuf.c</in>
+      </df>
+      <df name="mt19937ar">
+        <in>mt19937ar.c</in>
+      </df>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>CMakeLists.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-ffast-math"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>common</pElem>
+              <pElem>/usr/include</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>HAS_TLS</Elem>
+              <Elem>HAVE_MONOTONIC_CLOCK</Elem>
+              <Elem>HAVE_SETRLIMIT</Elem>
+              <Elem>HAVE_STRNLEN</Elem>
+              <Elem>MAXCONN=16384</Elem>
+            </preprocessorList>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <folder path="0/libconfig">
+        <cTool>
+          <preprocessorList>
+            <Elem>HAVE_FREELOCALE=1</Elem>
+            <Elem>HAVE_INTTYPES_H=1</Elem>
+            <Elem>HAVE_LIBPTHREAD=1</Elem>
+            <Elem>HAVE_LIBZ=1</Elem>
+            <Elem>HAVE_MEMORY_H=1</Elem>
+            <Elem>HAVE_NEWLOCALE=1</Elem>
+            <Elem>HAVE_STDINT_H=1</Elem>
+            <Elem>HAVE_STDLIB_H=1</Elem>
+            <Elem>HAVE_STRINGS_H=1</Elem>
+            <Elem>HAVE_STRING_H=1</Elem>
+            <Elem>HAVE_SYS_STAT_H=1</Elem>
+            <Elem>HAVE_SYS_TYPES_H=1</Elem>
+            <Elem>HAVE_UNISTD_H=1</Elem>
+            <Elem>HAVE_USELOCALE=1</Elem>
+            <Elem>HAVE_XLOCALE_H=1</Elem>
+            <Elem>PACKAGE_BUGREPORT=""</Elem>
+            <Elem>PACKAGE_NAME=""</Elem>
+            <Elem>PACKAGE_STRING=""</Elem>
+            <Elem>PACKAGE_TARNAME=""</Elem>
+            <Elem>PACKAGE_URL=""</Elem>
+            <Elem>PACKAGE_VERSION=""</Elem>
+            <Elem>STDC_HEADERS=1</Elem>
+            <Elem>_ALL_SOURCE=1</Elem>
+            <Elem>_GNU_SOURCE=1</Elem>
+            <Elem>_POSIX_PTHREAD_SEMANTICS=1</Elem>
+            <Elem>_TANDEM_SOURCE=1</Elem>
+            <Elem>__EXTENSIONS__=1</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <item path="libconfig/grammar.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="libconfig/libconfig.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="libconfig/scanctx.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="libconfig/scanner.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="libconfig/strbuf.c" ex="false" tool="0" flavor2="2">
+      </item>
+      <item path="mt19937ar/mt19937ar.c" ex="false" tool="0" flavor2="2">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

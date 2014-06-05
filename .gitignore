@@ -1,0 +1,51 @@
+# /3rdparty/libconfig/
+/3rdparty/libconfig/Makefile
+/3rdparty/libconfig/*.o
+/3rdparty/libconfig/obj
+
+# /3rdparty/mt19937ar/
+/3rdparty/mt19937ar/Makefile
+/3rdparty/mt19937ar/*.o
+
+# /db/
+/db/import
+
+# /conf/
+/conf/import
+/conf/msg_conf/import
+
+# /doc/
+/doc/doxygen
+
+# /log/
+/log/*.log
+/log/*.leaks
+
+
+# /src/common/
+/src/common/build
+/src/common/dist
+/src/common/nbproject/private
+
+# /src/login/
+/src/login/build
+/src/login/dist
+/src/login/nbproject/private
+
+# /src/char/
+/src/char/build
+/src/char/dist
+/src/char/nbproject/private
+
+# /src/map/
+/src/map/build
+/src/map/dist
+/src/map/nbproject/private
+
+# /src/custom/
+/src/custom/*
+
+# /src/tool/
+/src/tool/build
+/src/tool/dist
+/src/tool/nbproject/private
