@@ -69,10 +69,10 @@ ${OBJECTDIR}/core.o: core.cpp
 	${RM} "$@.d"
 	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/core.o core.cpp
 
-${OBJECTDIR}/showmsg.o: showmsg.c 
+${OBJECTDIR}/showmsg.o: showmsg.cpp 
 	${MKDIR} -p ${OBJECTDIR}
 	${RM} "$@.d"
-	$(COMPILE.c) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/showmsg.o showmsg.c
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/showmsg.o showmsg.cpp
 
 ${OBJECTDIR}/socket.o: socket.c 
 	${MKDIR} -p ${OBJECTDIR}

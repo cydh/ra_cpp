@@ -17,7 +17,7 @@
                    displayName="Source Files"
                    projectFiles="true">
       <itemPath>core.cpp</itemPath>
-      <itemPath>showmsg.c</itemPath>
+      <itemPath>showmsg.cpp</itemPath>
       <itemPath>socket.c</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -65,7 +65,7 @@
       </item>
       <item path="mmo.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="showmsg.c" ex="false" tool="0" flavor2="0">
+      <item path="showmsg.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="showmsg.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -112,7 +112,7 @@
       </item>
       <item path="mmo.h" ex="false" tool="3" flavor2="0">
       </item>
-      <item path="showmsg.c" ex="false" tool="0" flavor2="0">
+      <item path="showmsg.cpp" ex="false" tool="1" flavor2="0">
       </item>
       <item path="showmsg.h" ex="false" tool="3" flavor2="0">
       </item>
